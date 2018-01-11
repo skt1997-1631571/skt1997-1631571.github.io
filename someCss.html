@@ -3,27 +3,60 @@
 	<head>
 	<style type="text/css">
 		p.ex1 {
-			font: 15px Times New Roman, sans-serif;
+			font: 18px Times New Roman, sans-serif;
 		}
 
 		p.ex2 {
-			font:  27px, serif;
+			font: 20px arial, serif;
+		}
+
+		h1 {
+    		text-shadow: 2.5px 2.5px purple;
+		}
+
+		p {
+    		border: 1px solid black;
+    		outline: purple dotted;
+		}
+
+		.container {
+    		position: relative;
+    		text-align: center;
+    		color: white;
+		}
+
+		.centered {
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -50%);
+		}
+
+		p.ex3 {
+    		margin: 5px 20px 5px 20px;
 		}
 	</style>
 	</head>
 	<body>
 
-	<h1>Paragraphs</h1>
+	<h1>Some CSS</h1>
 	<p class="ex1">Informatics 101 is such a fun class. We get to cheer, make viral videos, and do tons of other activities. It has also been interesting learning about popular social media and gaming applications.</p>
 
 	<p class="ex2">Before this quarter, I have never coded. I am enjoying coding in both this class and Statistics 311. I hope to continue to do this more in the future.</p>
 
-    	<center>
+	<center>
 		<img src="http://3.bp.blogspot.com/-wsGVDC2Y4UA/UzHHSqYHwWI/AAAAAAAABFA/ElOlyf7A28c/s1600/2014Dubs13.jpg" height="50" width="50">
 	</center>
 	<center>
 		<img src="https://depts.washington.edu/biowww/images/suzzallo.png" height="50" width="50">
 	</center>
-    
+
+	<div class="container">
+		<img src="https://www.mckinsey.com/~/media/McKinsey/Locations/North%20America/West%20Coast/Seattle/WCO-seattle_thumb_GettyImages-479505626_1536x1536.ashx" height="250" width="200">
+		<div class="centered">Seattle</div>
+	</div>
+
+	<p class="ex3">This is a paragraph. This is a Paragraph. This is a paragraph. This is a Paragraph. This is a paragraph. This is a Paragraph. This is a paragraph. This is a Paragraph. This is a paragraph. This is a Paragraph.</p>
+
 	</body>
 </html>
